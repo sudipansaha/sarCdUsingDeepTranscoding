@@ -1,0 +1,10 @@
+For CycleGAN implementation, we closely follow the implmentation in:
+https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
+
+Some of parameters are set as follows:
+beta1 (momentum term for Adam optimization) - 0.5
+lr (Initial learning rate for Adam optimization) - 0.0002
+which_model_netD - basic (see discriminator architecture in netDiscriminator file)
+which_model_netG - resnet_9blocks (see generator architecture in netGenerator file)
+init_type (network initialization) - normal
+norm (normalization) - instance 
